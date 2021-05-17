@@ -3,8 +3,21 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   color: white;
+}
+
+.header {
+  padding: 20px;
+  display: inline-block;
+  background-color: green;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: white;
+  display: inherit;
+  float: right;
 }
 
 .title {

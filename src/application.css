@@ -9,17 +9,40 @@ body {
 
 .header {
   padding: 20px;
-  display: inline-block;
-  background-color: green;
-}
-
-#topnav {
-  overflow: hidden;
-  background-color: white;
-  display: inherit;
-  float: right;
+  display: inline;
+  text-align: center;
 }
 
 .title {
   color: red;
 }
+
+.header h3 {
+  color: red;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+#topnav a.right{
+  float: right;
+  display: inline;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: #666;
+  color: green;
+}
+

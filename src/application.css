@@ -52,12 +52,20 @@ body {
   flex-wrap: wrap;
 }
 
+.hover-text{
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: lightblue;
+}
+
 img {
   flex: 1;
   height: auto;
   width: 500px;
   padding: 10px;
   float: left;
+  position: relative;
 }
 
 .rightsiderow {

@@ -52,7 +52,7 @@ body {
   flex-wrap: wrap;
 }
 
-.hover-text{
+.hover-text {
   position: absolute;
   top: 8px;
   left: 10px;
@@ -76,6 +76,7 @@ img {
 
 .apps-container {
   width: 100%;
+  border: 1px solid black;
 }
 
 

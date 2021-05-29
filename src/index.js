@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(pic)
   pic.addEventListener("mouseenter", (e) => {
     console.log(imageText.innerText);
-    imageText.innerText = "I hail from Madison, WI!";
+    let newText = imageText.innerText = "I hail from Madison, WI!";
+    imageText.append.newText
   })
 
 })

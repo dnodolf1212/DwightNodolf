@@ -1,4 +1,4 @@
-const wrapper = document.querySelector(".wrapper");
+const api = new ApiService("http://localhost:3000/api/v1");const wrapper = document.querySelector(".wrapper");
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("We're writing javascript!!");

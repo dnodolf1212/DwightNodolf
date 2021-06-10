@@ -68,10 +68,16 @@ img {
   position: relative;
 }
 
+.image-blurb {
+  overflow: hidden;
+  flex: 3;
+}
+
 .rightsiderow {
   text-align: left;
   padding: 20px;
   overflow: hidden;
+  line-height: 25px;
 }
 
 .apps-container {
@@ -84,3 +90,5 @@ img {
 .apps-container h3 {
    text-align: center;
 }
+
+

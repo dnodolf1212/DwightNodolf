@@ -24,6 +24,8 @@ const blogPost = document.querySelector("#blog");
   .then(res => res.json())
   .then(posts => {
     posts.length = 3;
+    console.log(posts);
+
 
     posts.forEach(post => {
       let li = createNode('li'), a = createNode('a');
@@ -31,19 +33,22 @@ const blogPost = document.querySelector("#blog");
       let small = createNode('small');
 
       a.target = "_blank";
-      p.classList.add("to-connecter");
+      p.classList.add("w-info");
       a.href = post.url;
       a.innerText = post.title;
       p.innerText = post.description;
 
       append(h2, a);
       append(li, h2);
+      append(li, p);
       append(ul, li);
     })
     append(blogPost, ul);
   })
 
-document.addEventListener("DOMContentLoaded", () => {
+  
+
+  document.addEventListener("DOMContentLoaded", () => {
   
   console.log("We're writing javascript!!");
 

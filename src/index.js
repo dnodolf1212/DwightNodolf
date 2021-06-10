@@ -1,4 +1,19 @@
-const api = new ApiService("http://localhost:3000/api/v1");const wrapper = document.querySelector(".wrapper");
+const api = new ApiService("https://dev.to/api/articles?");
+const wrapper = document.querySelector(".wrapper");
+const blogPost = document.querySelector("#blog");
+  //Dev.to username and api
+  const username = "notmuchnotmuch";
+
+  createNode = (el) => {
+    return document.creeateElement(el);
+  };
+
+  append = (parentEl, childEl) => {
+    return parentEl.appendChild(childEl);
+  };
+
+  const ul = createNode('ul');
+  ul.classList.add("blog-feed");
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("We're writing javascript!!");
@@ -11,6 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(imageText.innerText);
     let newText = imageText.innerText = "I hail from Madison, WI!";
     imageText.append.newText
-  })
+  });
+
+  
 
 })
+
+  
+
+  
+
